@@ -1,0 +1,15 @@
+# 1. تهيئة مجلد المشروع ليصبح مستودع Git
+git init
+
+# 2. ربط المشروع بالمستودع في GitHub (بدّل الرابط برابطك)
+git remote add origin https://github.com/username/repository.git
+
+# 3. إضافة جميع الملفات للمستودع
+git add .
+
+# 4. تأكيد الملفات المضافة برسالة توضيحية
+git commit -m "رفع أولي للموقع التعليمي"
+
+# 5. رفع الملفات إلى فرع main (أو master حسب المستودع)
+git branch -M main
+git push -u origin main
